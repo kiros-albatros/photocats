@@ -1,0 +1,20 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+.gallery__list {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    li {
+        flex-basis: 25%;
+    }
+    img {
+        max-width: 300px;
+    }
+}
